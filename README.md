@@ -1,4 +1,5 @@
-# flutter_application
+# WeatherApp
+Demonstrates how to use the http_interceptor plugin. Due to CORS policies, this example does not fetch data when it is ran on Flutter Web, but it does work if you configure your own server properly or a proxy setup is used like the CORS anywhere demo on Github.
 
 ## Structure
 - assets
