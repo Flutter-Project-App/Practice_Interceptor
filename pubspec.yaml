@@ -20,6 +20,7 @@ dependencies:
   flutter_svg:
   # Local Persist
   shared_preferences:
+  http_interceptor:
 
 dev_dependencies:
   flutter_test:

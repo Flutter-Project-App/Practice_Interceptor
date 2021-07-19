@@ -1,5 +1,6 @@
 import 'dart:developer' as developer;
 import 'package:flutter/material.dart';
+import '../../pages/home_page.dart';
 import 'themes.dart';
 class Application extends StatefulWidget {
   static const ROUTE_NAME = 'Application';
@@ -14,6 +15,7 @@ class _ApplicationState extends State<Application> {
     return MaterialApp(
       theme: light(context),
       darkTheme: dark(context),
+      home: HomePage(),
     );
   }
 }
